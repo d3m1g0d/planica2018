@@ -5,6 +5,8 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
 }
-.navbar {
-    
+.planica-jumbo {
+    background-image: url("http://www.arhinfo.si/img/proj/AKKA-planica-06-v.jpg");
+    background-position: center center;
+    background-size: cover;
 }
