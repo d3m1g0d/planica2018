@@ -6,3 +6,8 @@
     background-position: center center;
     background-size: cover;
 }
+.gallery-jumbo {
+    background-image: url("gallery.jpg");
+    background-position: center center;
+    background-size: cover;
+}
