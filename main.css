@@ -2,12 +2,12 @@
     font-size: 24px;
 }
 .planica-jumbo {
-    background-image: url("planica.jpg");
+    background-image: url("imgs/planica.jpg");
     background-position: center center;
     background-size: cover;
 }
 .gallery-jumbo {
-    background-image: url("gallery.jpg");
+    background-image: url("imgs/gallery.jpg");
     background-position: center center;
     background-size: cover;
 }
