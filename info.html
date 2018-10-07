@@ -14,16 +14,18 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="main.css">
     <!--Custom JS-->
-    <script src="countdown.js" type="text/javascript"></script>
 
     <title>Planica 2018 - Informacije</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
           <div>
               <a href="index.html" class="navbar-brand">Projektni teden Planica 2018</a> 
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+                <span class="navbar-toggler-icon"></span>
+              </button>
           </div>
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="navbar-content">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link" href="index.html">Domov</a></li>
               <li class="nav-item"><a class="nav-link" href="gallery.html">Galerija</a></li>
@@ -31,37 +33,136 @@
             </ul>
           </div>
       </nav>
-      <div class="container">
-        <table class="table text-center">
-          <tr>
-            <th scope="colgroup" class="text-center h3" colspan="6">Urnik</th>
-          </tr>
-          <tr>
-            <th scope="row">Ura</th>
-            <th scope="row">Ponedeljek</th>
-            <th scope="row">Torek</th>
-            <th scope="row">Sreda</th>
-            <th scope="row">Četrtek</th>
-            <th scope="row">Petek</th>
-          </tr>
-          <tr>
-              <td>7:00</td>
-              <td rowspan="3"></td>
-              <td rowspan="2">Budnica, Jutranja telovadba in zajtrk</td>
-              <td rowspan="2">Budnica, Jutranja telovadba in zajtrk</td>
-              <td rowspan="2">Budnica, Jutranja telovadba in zajtrk</td>
-              <td rowspan="2">Budnica, Jutranja telovadba in zajtrk</td>
-          </tr>
-          <tr>
-            <td>9:00</td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-          </tr>
-        </table>
-      </div>
+      <a class="link text-center" data-toggle="collapse" href="#equipment"><h3>Seznam potrebne opreme</h3></a>
+      <div class="container collapse" id="equipment">
+        <h5>Osebni dokumenti:</h5>
+        <ul>
+          <li>zdravstvena izkaznica</li>
+        </ul>
+        <h5>Za bivanje:</h5>
+        <ul>
+          <li>1 Rjuha, prevleka za odejo ter za vzglavnik</li>
+          <li>milo</li>
+          <li>zobna ščetka in zobna pasta</li>
+          <li>pribor za osebno higieno</li>
+          <li>papirnati robčki</li>
+          <li>vreča za umazano perilo</li>
+          <li>2 brisači</li>
+          <li>1 plastična ali termo steklenica</li>
+          <li>zaščitna krema za sonce</li>
+        </ul>
+        <h5>Za izvajanje pouka:</h5>
+        <ul>
+          <li>peresnica, zvevek in ravnilo</li>
+          <li>manjši nahrbtnik in ravnilo</li>
+        </ul>
+        <h5>Oblačila in obutev</h5>
+        <ul>
+          <li>spodnje perilo</li>
+          <li>tanjše in debelejše nogavice</li>
+          <li>pižama</li>
+          <li>trenirka ali športna oblačila za prosti čas</li>
+          <li>tople rezervne dolge hlače</li>
+          <li>majice, puli, pulover</li>
+          <li>debelejši pulover ali termoflis</li>
+          <li>vetrovka ali druga nepremočljiva obleka</li>
+          <li>kapa, rokavice</li>
+          <li>telovadni copati</li>
+          <li>copati za v dom</li>
+          <li><b class="text-danger">OBVEZNO!</b><b><br>Močnejši planinski čevlji (nizki ali visoki) z dobro profiliranim podplatom za aktivnosti v gorskem okolju</b></li>
+        </ul>
+        <h5>Za šport in razvedrilo</h5>
+        <ul>
+          <li>loparji za namizni tenis</li>
+          <li>glasbeni inštrumenti (kitara, orglice, harmonika)</li>
+          <li>čelna svetilka ali baterija za nočni pohod</li>
+          <li>sončna očala - priporočljivo</li>
+          <li>razne družabne igre</li>
+          <li>kopalke (v primeru slabega vremena)</li>
+        </ul>
+        </div>
+        <a class="link text-center" data-toggle="collapse" href="#timetable"><h3>Urnik</h3></a>
+        <div class="container collapse" id="timetable">
+          <h3>Ponedeljek: 15.10.2018</h3>
+          <ul>
+            <li>9.30 odhod izpred šole;</li>
+            <li>10.30 prihod v CŠOD Planica, uvodna navodila, seznanitev s hišnim redom, namestitev po sobah;</li>
+            <li>12.00 – 13.00 kosilo;</li>
+            <li>13.00 - 14.00 usmerjen prosti čas;</li>
+            <li>14.00 – 17.00 Zgodovina smučarskih skokov in poletov ter Geografske značilnosti Planice in Tamarja;</li>
+            <li>17.00 – 18.30 usmerjeni prosti čas;</li>
+            <li>18.30 – 19.30 večerja;</li>
+            <li>19.30 – 21.00 Večerno nočni pohod;</li>
+            <li>21.00 priprava na spanje;</li>
+            <li>22.00 nočni počitek:</li>
+          </ul>
+          <h3>Torek: 16.10.2018</h3>
+          <ul>
+            <li>7.00 budnica;</li>
+            <li>7.00 – 8.00 jutranja telovadba, zajtrk;</li>
+            <li>8.00 – 17.00 Pohod na Tromejo in obisk naravnega rezervata Zelenci (celodnevni izlet);</li>
+            <li>17.00 – 18.30 usmerjeni prosti čas;</li>
+            <li>18.30 – 19.30 večerja;</li>
+            <li>19.30 – 21.00 Orientacija in kartografija;</li>
+            <li>21.00 priprava na spanje;</li>
+            <li>22.00 nočni počitek:</li>
+          </ul>
+          <h3>Sreda: 17.10.2018</h3>
+          <ul>  
+            <li>7.00 budnica;</li>
+            <li>7.00 – 8.00 jutranja telovadba, zajtrk;</li>
+            <li>8.00 – 17.00 Tamar s plezanjem v naravni steni in TNP (celodnevni izlet);</li>
+            <li>17.00 – 18.30 usmerjeni prosti čas;</li>
+            <li>18.30 – 19.30 večerja;</li>
+            <li>19.30 – 21.00 večerna animacija;</li>
+            <li>21.00 priprava na spanje;</li>
+            <li>22.00 nočni počitek:</li>
+          </ul>
+          <h3>Četrtek: 18.10.2018</h3>
+          <ul>
+            <li>7.00 budnica;</li>
+            <li>7.00 – 8.00 jutranja telovadba, zajtrk;</li>
+            <li>8.00 – 12.30 Zgodovina gorništva in preživetje v naravi;</li>
+            <li>12.30 – 13.30 kosilo;</li>
+            <li>13.30 – 14.00 usmerjen prosti čas;</li>
+            <li>14.00 – 17.00 Orientacijski tek;</li>
+            <li>17.00 – 18.30 usmerjeni prosti čas;</li>
+            <li>18.30 – 19.30 večerja;</li>
+            <li>19.30 – 21.00 Ogled slovenskega gorniškega filma Sfinga;</li>
+            <li>21.00 priprava na spanje;</li>
+            <li>22.00 nočni počitek:</li>
+          </ul>
+          <h3>Petek, 19.10.2018</h3>
+          <ul>
+            <li>7.00 budnica;</li>
+            <li>7.00 – 8.00 jutranja telovadba, zajtrk;</li>
+            <li>8.00 – 12.30 Lokostrelstvo / razgledna točka;</li>
+            <li>12.30 – 13.00 kosilo;</li>
+            <li>13.00 - 13.30 zaključni zbor;</li>
+            <li>14.00 - 15.00 prihod v Kranj.</li>
+          </ul>
+        </div>
+        <a class="link text-center" data-toggle="collapse" href="#contact"><h3>Kontaktne osebe</h3></a>
+        <div class="container collapse" id="contact">
+          <b>Ravnateljica Strokovne gimnazije</b><br>
+          mag. Lidija Goljat Prelogar <br>
+          e-pošta: <a class="link" href="mailto:lidija.goljat.prelogar@sckr.si">lidija.goljat.prelogar@sckr.si</a><br>
+          telefon: 04 280 40 22
+          <br><br>
+          <b>Vodja projektnega tedna</b><br>
+          Matej Lavtižar<br>
+          e-pošta: <a class="link" href="mailto:matej.lavtizar@sckr.si">matej.lavtizar@sckr.si</a><br>
+          telefon: 04 280 40 26 (zbornica)
+          <br><br>
+          <b>CŠOD Planica</b><br>
+          Rateče 167<br>
+          4283 Rateče - Planica<br>
+          Telefon: 04 588 45 70
+          GSM: 041 400 917
+          Kontaktna oseba: Mina Kotnik (051 634 697)
+          e-pošta: <a class="link" href="mailto:mina.kotnik@csod.si">mina.kotnik@csod.si</a>, <a class="link" href="mailto:planica@csod.si">planica@csod.si</a>
+        </div>
+        <a class="link text-center" href="docs/razporeditev.pdf"><h3>Razporeditev po sobah (PDF)</h3></a>
+        <footer class="text-muted text-center">Copyright 2018 Kristjan Komloši in Jakob Kosec</footer>
   </body>
 </html>
