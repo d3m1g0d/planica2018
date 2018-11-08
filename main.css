@@ -12,3 +12,6 @@
     background-size: cover;
 }
 img { image-orientation: from-image; }
+.card {
+    margin: 1px;
+}
